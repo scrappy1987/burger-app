@@ -1,13 +1,13 @@
 import React from 'react';
-import Aux from '../../containers/hoc/Aux';
+import Hoc from '../hoc/Hoc';
 
 const layout = (props) => (
-    <Aux>
+    <Hoc>
         <div>Link 1, Link 2</div>
         <main>
             {props.children}
         </main>
-    </Aux>
+    </Hoc>
 );
 
 export default layout;
